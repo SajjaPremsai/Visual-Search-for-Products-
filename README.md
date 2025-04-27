@@ -30,19 +30,27 @@ It uses **image embeddings** and **cosine similarity** to identify similar produ
 visual-search-for-products/
 │
 ├── backend/         # Node.js server for handling search logic
+│   ├── config/
 │   ├── controllers/
+│   ├── middleware/
+│   ├── models/
 │   ├── routes/
 │   ├── utils/
 │   ├── app.js
 │   └── package.json
 │
 └── frontend/        # React frontend for user interaction
-    ├── src/
-    │   ├── components/
-    │   ├── pages/
-    │   ├── App.jsx
-    │   └── main.jsx
     ├── public/
+    ├── src/
+    │   ├── Components/
+    │   ├── images/
+    │   ├── redux/
+    │   ├── App.jsx
+    │   ├── Layout.jsx
+    │   └── main.jsx
+    ├── eslint.config.js
+    ├── index.html
+    ├── vite.config.js
     └── package.json
 ```
 
